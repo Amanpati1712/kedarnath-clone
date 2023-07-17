@@ -1,0 +1,636 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+
+}
+.header{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+
+}
+.info{
+    width: 50%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50px;
+    
+}
+.info h1,h4,p{
+    margin-top: 20PX;
+}
+.buttons{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.buttons h4,button,select{
+    margin-top: 20px;
+}
+.buttons button{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border: none;
+}
+.buttons button:hover{
+    background-color: orangered;
+    color: white;
+
+}
+.buttons select{
+    width: 250px;
+    height: 30px;
+
+}
+.kedarnath{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.background{
+    width: 90%;
+    height: 500px;
+    background-image: url('./images/kedar.jpg');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+  
+    
+
+   
+}
+.information{
+    width: 100%;
+    height: auto;
+}
+.information h1{
+    padding-left:100px ;
+    padding-top: 30px;
+}
+.content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.left{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.places{
+    width: 100%;
+    height: auto;
+    
+   
+}
+.images{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+
+}
+.one{
+    width: 400px;
+    height: 300px;
+    background-image: url('./images/1st.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.one1{
+    width: 400px;
+    height: 300px;
+    background-image: url('./images/2nd.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.one2{
+    width: 400px;
+    height: 300px;
+    background-image: url('./images/3rd.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.one:hover,.one1:hover,.one2:hover{
+    transition: all ease-in-out 2s;
+    transform: scale(110%);
+    filter: blur();
+}
+.places h1{
+    padding-left:100px ;
+    padding-top: 30px;
+}
+.map{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.allowed{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.allow{
+    width: 40%;
+    height: auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+.not-allow{
+    width: 40%;
+    height: auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+.allow p{
+    margin-top: 20px;
+
+}
+.not-allow p{
+    margin-top: 20px;
+
+}
+.Tour-Guidence{
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/* .Tour-Guidence{
+    padding-left: 100px;
+} */
+.guider{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center ;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.Tour-info{
+    width: 40%;
+    height: auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+.guider-img{
+    width: 40%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.guider-img img{
+ width: 350px;  
+ 
+}
+.guider-img img:hover{
+    transition: all ease-in-out 2s;
+    transform:scale(110%);
+    filter: grayscale();
+}
+.two{
+    width: 400px;
+    height: 300px;
+    background-image: url('./images/badrinath.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.two1{
+    width: 400px;
+    height: 300px;
+    background-image: url('./images/tungnath.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.two2{
+    width: 400px;
+    height: 300px;
+    background-image: url('./images/utrakhand.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.two:hover,.two1:hover,.two2:hover{
+    transition: all ease-in-out 2s;
+    transform: scale(110%);
+    filter: blur();
+}
+.reviews{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+
+}
+.review-1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.left{
+    width: 40%;
+    height: auto;
+    display: flex;
+    
+}
+.right{
+    width: 40%;
+    height: auto;
+    display: flex;
+}
+.img img{
+    width: 120px;
+}
+.feedback{
+    padding-left: 50px;
+}
+.feedback button{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+
+}
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 30px;
+   
+}
+.main-section{
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.left-1{
+    width: 40%;
+    height: auto;
+    
+}
+.left-1 select{
+    margin-top: 30px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.right-1{
+    width: 40%;
+    height: auto;
+}
+.right-1 select{
+    margin-top: 30px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.similar{
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.first{
+    width: 250px;
+    height: 250px;
+    background-image:url('./images/casole.webp') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.first1{
+    width: 250px;
+    height: 250px;
+    background-image:url('./images/ccsole.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.first2{
+    width: 250px;
+    height: 250px;
+    background-image:url('./images/kashmmir.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.first3{
+    width: 250px;
+    height: 250px;
+    background-image: url('./images/jammu.avif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.first4{
+    width: 250px;
+    height: 250px;
+    background-image: url('./images/maldives.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.first:hover,.first1:hover,.first2:hover,.first3:hover,.first4:hover{
+    transition: all ease-in-out 2s;
+    transform: scale(110%);
+    filter: grayscale();
+}
+.last{
+    width: 100%;
+    height: auto;
+    background-color: rgb(8, 8, 15);
+    margin-top: 30px;
+    padding-block: 30px;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+}
+.div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icons i{
+    font-size: 25px;
+    
+}
+.div-1 h1{
+    color: white;
+}
+.div-1 a{
+    color: white;
+    text-decoration: none;
+
+}
+.div-1 select{
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid white;
+}
+.div-1 input{
+    width: 200px;
+    height: 30px;
+}
+.div-1 button{
+    width: 100px;
+    height: 30px;
+}
+.div ul li{
+    color: white;
+    list-style: none;
+    margin-top: 10px;
+}
+/* Responsive */
+@media(max-width:768px){
+.main-container{
+    width: 100%;
+    height: auto;
+}
+.info{
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 250px;
+}
+.kedarnath{
+    width: 100%;
+    height: auto;
+}
+.information{
+    width: 100%;
+    height: auto;
+}
+.information h1{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 50px;
+}
+.places{
+    width: 100%;
+    height: auto;
+
+}
+.places h1{
+    padding: 50px;
+}
+.images{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    /* justify-content: space-between; */
+}
+.one{
+    width: 200px;
+    height: 200px;
+}
+.one1{
+    width: 200px;
+    height: 200px;
+}
+.one2{
+    width: 200px;
+    height: 200px;
+}
+.map{
+    width: 100%;
+    height: 100%;
+}
+.allowed{
+    width: 100%;
+    height: 100%;
+}
+.Tour-Guidence{
+    width: 100%;
+    height: auto;
+}
+.guider{
+    width: 100%;
+    height: auto;
+}
+.two{
+    width: 200px;
+    height: 200px;
+}
+.two1{
+    width: 200px;
+    height: 200px;
+}
+.two2{
+    width: 200px;
+    height: 200px;
+}
+.reviews{
+    width: 100%;
+    height: auto;
+}
+.review-1{
+    width: 100%;
+    height: auto;
+}
+.main{
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+}
+.main-section{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.left-1{
+   width: 100%;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.right-1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer{
+    width: 100%;
+    height: auto;
+
+}
+.similar{
+    width: 100%;
+    height: auto;
+}
+.first{
+    width: 120px;
+    height: 120px;
+}
+.first1{
+    width: 120px;
+    height: 120px;
+    background-image:url('./images/ccsole.jpg') ;
+    
+}
+.first2{
+    width: 120px;
+    height: 120px;
+    background-image:url('./images/kashmmir.jpg') ;
+   
+}
+.first3{
+    width: 120px;
+    height: 120px;
+    background-image: url('./images/jammu.avif');
+    
+}
+.first4{
+    width: 150px;
+    height: 150px;
+    background-image: url('./images/maldives.jpg');
+   
+}
+.last{
+    width: 100%;
+    height: auto;
+}
+.div{
+    width: 100%;
+    height: auto;
+}
+#ul1{
+    display: none;
+}
+#ul2{
+    display: none;
+}
+}
